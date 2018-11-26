@@ -1,0 +1,91 @@
+
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-color: #252525;
+}
+
+.lowerInputs{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.mntPic{
+    background-image: url('../Assets/Mountains.jpg');
+    height: 685px;
+}
+
+.myInfoColumn{
+    width: 500px;
+    background-color: #252525;
+    margin: 20px;
+    padding: 15px;
+}
+
+.imgFilter{
+    height: 685px;
+    background-color: rgb(0,0,0);
+}
+
+input::placeholder {
+    color: rgba(81, 229, 22);
+}
+
+textArea::placeholder {
+    color: rgba(81, 229, 22)
+}
+
+.jungleBack{
+    background-image: url(../Assets/jungle.jpg);
+    height: 450px;
+}
+
+.jungleFilter{
+    height: 450px;
+    background-color: rgba(0, 65, 43, 0.712);
+}
+
+.personalInfoBox{
+    background-color: #240A58;
+    width: 1000px;
+    margin: auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.photoAboutMe{
+    width: 500px;
+    margin: 20px;
+}
+
+#greetingPage{
+    
+}
+
+#webDev{
+    font-family: 'Rokkitt', serif;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+#myName{
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    margin-bottom: 50px;
+    color: #51E516;
+}
+
+#persPic{
+    width: 200px;
+
+}
+
+#quote{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
