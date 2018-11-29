@@ -6,6 +6,18 @@
     background-color: #252525;
 }
 
+.cityBack{
+    background-image: url('../Assets/city.jpg');
+    height: 600px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.cityFilter{
+    height: 600px;
+    background-color: rgba(11, 19, 43, 0.774);
+}
+
 .lowerInputs{
     display: flex;
     flex-direction: column;
@@ -16,6 +28,8 @@
 .mntPic{
     background-image: url('../Assets/Mountains.jpg');
     height: 685px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .myInfoColumn{
@@ -27,7 +41,7 @@
 
 .imgFilter{
     height: 685px;
-    background-color: rgb(0,0,0);
+    background-color: rgba(11, 19, 43, 0.774);
 }
 
 input::placeholder {
@@ -45,7 +59,7 @@ textArea::placeholder {
 
 .jungleFilter{
     height: 450px;
-    background-color: rgba(0, 65, 43, 0.712);
+    background-color: rgba(0, 65, 43, 0.801);
 }
 
 .personalInfoBox{
@@ -58,19 +72,47 @@ textArea::placeholder {
     color: white;
 }
 
+.personalProject1{
+    width: 100%;
+    height: 600px;
+    background-Color: #240A58;
+    margin-top: 20px;
+}
+
+.personalProject2{
+    width: 100%;
+    height: 600px;
+    background-Color: #240A58;
+}
+
+.personalProject3{
+    width: 100%;
+    height: 600px;
+    background-Color: #240A58;
+}
+
+.personalProject4{
+    width: 100%;
+    height: 600px;
+    background-Color: #240A58;
+    margin-bottom: 40px;
+}
+
 .photoAboutMe{
     width: 500px;
     margin: 20px;
 }
 
 #greetingPage{
-    
+    position: relative;
+    top: 200px;
 }
 
 #webDev{
-    font-family: 'Rokkitt', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     margin-bottom: 25px;
+    color: white;
 }
 
 #myName{
@@ -86,6 +128,7 @@ textArea::placeholder {
 }
 
 #quote{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
+    color: white;
 }

@@ -11,7 +11,8 @@ class MainPage extends Component {
         const titles = {
             fontFamily: 'Lobster, cursive',
             color: '#51E516',
-            fontSize: '50px'
+            fontSize: '50px',
+            
         }
 
         const contactBtn = { 
@@ -71,35 +72,37 @@ class MainPage extends Component {
 
                 <section className='background'>
                     <h1 style={titles}>Skills</h1>
-                    <div>
+                    <div className='cityBack'>
+                        <div className='cityFilter'>
 
+                        </div>
                     </div>
                 </section>
 
                 <section className='background'>
                     <h1 style={titles}>Projects</h1>
-                    <div>
+                    <div className='personalProject1'>
                         <div></div>
                         <div></div>
                     </div>
                 </section>
 
-                <section>
-                    <div>
+                <section className='background'>
+                    <div className='personalProject2'>
                         <div></div>
                         <div></div>
                     </div>
                 </section>
 
-                <section>
-                    <div>
+                <section className='background'>
+                    <div className='personalProject3'>
                         <div></div>
                         <div></div>
                     </div>
                 </section>
 
-                <section>
-                    <div>
+                <section className='background'>
+                    <div className='personalProject4'>
                         <div></div>
                         <div></div>
                     </div>
