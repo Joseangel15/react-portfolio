@@ -1,134 +1,211 @@
 
-
-.background{
-    width: 100%;
-    height: 100vh;
-    background-color: #252525;
+.aboutMePara{
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
 }
 
-.cityBack{
-    background-image: url('../Assets/city.jpg');
-    height: 600px;
-    background-size: cover;
+.aboutMeSection{
+    width: 100%;
+    height: 750px;
+    background-color: #323232;
+}
+
+.arrow-down {
+    -webkit-clip-path: polygon(49% 100%, 0 0, 100% 0);
+    clip-path: polygon(49% 100%, 0 0, 100% 0);
+    padding-top: 50px;
+    background-color: #454545;
+    height: 196px;
+}
+
+.bottomIcons{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.bottomLinks{
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Lobster', cursive; 
+    display: flex;
+    margin-right: 5px;
+}
+
+.cardsTop{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 75px;
+}
+
+.cardsBottom{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 75px;
+    z-index: 1;
+}
+
+.contactSection{
+    width: 100%;
+    height: 935px;
+    background-color: #323232;
+    margin-top: 75px;
+}
+
+.gitHubWhite{
+    width: 50px;
+    height: 50px;
     margin-top: 20px;
 }
 
-.cityFilter{
-    height: 600px;
-    background-color: rgba(11, 19, 43, 0.774);
-}
 
-.lowerInputs{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    
-}
-
-.mntPic{
-    background-image: url('../Assets/Mountains.jpg');
-    height: 685px;
+.introBack{
+    background-image: url('../Assets/0b1e69ca63199afcb690ecf29ad6bcb9.jpg');
+    width: 100%;
+    height: 670px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.myInfoColumn{
-    width: 500px;
-    background-color: #252525;
-    margin: 20px;
-    padding: 15px;
+.introducePara{
+    width: 479px; 
+    height: 572px; 
+    font-Size: 20px; 
+    margin-Left: 115px
 }
 
-.imgFilter{
-    height: 685px;
-    background-color: rgba(11, 19, 43, 0.774);
-}
-
-input::placeholder {
-    color: rgba(81, 229, 22);
-}
-
-textArea::placeholder {
-    color: rgba(81, 229, 22)
-}
-
-.jungleBack{
-    background-image: url(../Assets/jungle.jpg);
-    height: 450px;
-}
-
-.jungleFilter{
-    height: 450px;
-    background-color: rgba(0, 65, 43, 0.801);
-}
-
-.personalInfoBox{
-    background-color: #240A58;
-    width: 1000px;
-    margin: auto;
-    height: 700px;
+.linkBoxes{
     display: flex;
-    justify-content: center;
-    color: white;
+    justify-Content: center;
+    margin-right: 40px;
 }
 
-.personalProject1{
+.lowerSectionBar{
     width: 100%;
-    height: 600px;
-    background-Color: #240A58;
-    margin-top: 20px;
+    height: 103px;
+    background-color: #454545;
+    margin-top: 30px;
 }
 
-.personalProject2{
+.mainBack{
     width: 100%;
-    height: 600px;
-    background-Color: #240A58;
+    height: 100vh;
+    background-color: #323232;
 }
 
-.personalProject3{
-    width: 100%;
-    height: 600px;
-    background-Color: #240A58;
-}
-
-.personalProject4{
-    width: 100%;
-    height: 600px;
-    background-Color: #240A58;
-    margin-bottom: 40px;
-}
-
-.photoAboutMe{
-    width: 500px;
-    margin: 20px;
-}
-
-#greetingPage{
-    position: relative;
-    top: 200px;
-}
-
-#webDev{
+.myName{
+    font-size: 85px;
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    margin-bottom: 25px;
+    font-weight: 300;
     color: white;
+    margin-Bottom: 10px;
 }
 
-#myName{
+.myTitle{
     font-family: 'Lobster', cursive;
-    font-size: 90px;
-    margin-bottom: 50px;
+    font-size: 40px;
     color: #51E516;
+    margin-Top: 10px;
 }
 
-#persPic{
-    width: 200px;
-
+.oppositePolygons1{
+    -webkit-clip-path: polygon(0 85%, 0 100%, 100% 100%);
+    clip-path: polygon(0 40%, 0 100%, 100% 100%);
+    background-color: #454545;
+    height: 196px;
 }
 
-#quote{
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+.oppositePolygons2{
+    -webkit-clip-path: polygon(100% 20%, 0 100%, 100% 100%);
+    clip-path: polygon(100% 20%, 0 100%, 100% 100%);
+    background-color: #585858;
+    height: 196px;
+    position: relative;
+    bottom: 195px;
+}
+
+.projectCard{
+    width: 300px; 
+    height: 485px;
     color: white;
+    /* border: 1px solid white; */
+    margin: 10px 20px;
+    background-color: #454545;
+}
+
+.projectImage{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid white; */
+}
+
+.projectSection{
+    width: 100%;
+    height: 700px;
+    background-color: #323232;
+}
+
+.skillCard{
+    width: 220px;
+    height: 260px;
+    /* border: 1px solid white; */
+}
+
+.skillLogo{
+    width: 136px; 
+    height: 157px;
+    margin-Top: 30px;
+}
+
+.skillName{
+    color: white;
+    margin-Top: 20px;
+    font-size: 20px;
+}
+
+.skillsSection{
+    width: 100%;
+    height: 700px;
+    background-color: #323232;
+    z-index: -1;
+}
+
+.slideTop{
+    -webkit-clip-path: polygon(0 100%, 0 0, 100% 0);
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+    background-color: #454545;
+    height: 196px;
+}
+
+.slideDown{
+    -webkit-clip-path: polygon(100% 0%, 0 100%, 100% 100%);
+    clip-path: polygon(100% 0%, 0 100%, 100% 100%);
+    background-color: #454545;
+    height: 196px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 195px;
+    /* z-index: -1; */
+}
+
+#backBtn{
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+#linky {
+    margin-left: 10px;
+    font-weight: 300;
+    color: #51E516
 }

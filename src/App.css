@@ -105,10 +105,17 @@ input, select {
 
 *{
   box-sizing: border-box;
+  outline: none;
+}
+
+button{
+    cursor: pointer;
 }
 
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .App-logo {
