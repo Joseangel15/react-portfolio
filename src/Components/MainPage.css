@@ -23,15 +23,15 @@
 }
 
 .bottomIcons{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
 }
 
 .bottomLinks{
     color: white;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
     font-family: 'Lobster', cursive; 
     display: flex;
@@ -61,11 +61,10 @@
 }
 
 .gitHubWhite{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-top: 20px;
 }
-
 
 .introBack{
     background-image: url('../Assets/0b1e69ca63199afcb690ecf29ad6bcb9.jpg');
@@ -73,6 +72,7 @@
     height: 670px;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .introducePara{
@@ -90,14 +90,17 @@
 
 .lowerSectionBar{
     width: 100%;
-    height: 103px;
+    height: 75px;
     background-color: #454545;
     margin-top: 30px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 .mainBack{
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
     background-color: #323232;
 }
 
@@ -114,13 +117,14 @@
     font-size: 40px;
     color: #51E516;
     margin-Top: 10px;
+    font-weight: 300
 }
 
 .oppositePolygons1{
     -webkit-clip-path: polygon(0 85%, 0 100%, 100% 100%);
     clip-path: polygon(0 40%, 0 100%, 100% 100%);
     background-color: #454545;
-    height: 196px;
+    height: 180px;
 }
 
 .oppositePolygons2{
@@ -129,46 +133,57 @@
     background-color: #585858;
     height: 196px;
     position: relative;
-    bottom: 195px;
+    bottom: 170px;
 }
 
 .projectCard{
-    width: 300px; 
-    height: 485px;
+    width: 285px; 
+    height: 475px;
     color: white;
     /* border: 1px solid white; */
     margin: 10px 20px;
     background-color: #454545;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.projectCardInfo{
+    margin-Top: 20px;
+    font-Size: 35px;
+    font-Family: lobster, cursive;
+    font-Weight: 300;
 }
 
 .projectImage{
-    width: 300px;
-    height: 300px;
+    width: 285px;
+    height: 290px;
     /* border: 1px solid white; */
 }
 
 .projectSection{
     width: 100%;
-    height: 700px;
+    height: 775px;
     background-color: #323232;
 }
 
 .skillCard{
-    width: 220px;
-    height: 260px;
+    width: 200px;
+    height: 240px;
     /* border: 1px solid white; */
 }
 
 .skillLogo{
-    width: 136px; 
-    height: 157px;
+    width: 116px; 
+    height: 137px;
     margin-Top: 30px;
 }
 
 .skillName{
-    color: white;
+    color: #51E516;
     margin-Top: 20px;
     font-size: 20px;
+    font-family: lobster, cursive;
+    font-weight: 300;
+    
 }
 
 .skillsSection{
@@ -183,6 +198,7 @@
     clip-path: polygon(0 100%, 0 0, 100% 0);
     background-color: #454545;
     height: 196px;
+    
 }
 
 .slideDown{
@@ -201,7 +217,7 @@
     background-color: transparent;
     color: white;
     margin-top: 50px;
-    font-size: 36px;
+    font-size: 25px;
 }
 
 #linky {

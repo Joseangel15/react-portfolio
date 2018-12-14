@@ -1,0 +1,34 @@
+
+.mainBlocks{
+    display: flex;
+    justify-content: center;
+}
+
+.mainSenshiBack{
+    width: 100%;
+    height: 100vh;
+    background-color: #323232;
+}
+
+.projectInfo{
+    width: 512px;
+    height: 449px;
+    /* border: 1px solid white; */
+    margin: 40px;
+    background-color: #454545;
+    color: white;
+    padding: 20px;
+}
+
+.projectPic{
+    width: 512px;
+    height: 449px;
+    /* background-image: url('../../Assets/Senshi\ site\ Home.PNG'); */
+    background-size: cover;
+    margin: 40px;
+    background-position: center, center;
+
+}
+
+
+

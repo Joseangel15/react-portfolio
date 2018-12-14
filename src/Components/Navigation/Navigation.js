@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+import {HashLink} from 'react-router-hash-link';
 import './Navigation.css';
-import LinkedInLogo from '../../Assets/LinkedIn_logo_initials.png';
-import GitHubLogo from '../../Assets/github-logo-1.png';
+
 
 
 class Navigation extends Component{
@@ -13,13 +14,13 @@ class Navigation extends Component{
         }
 
         return(
-            <div className='mainBar'>
+            <div className='mainBar' id='homeUp'>
                 <section className='menu'>
-                        <h2 style={margin}>Home</h2>
-                        <h2 style={margin}>About Me</h2>
-                        <h2 style={margin}>Skills</h2>
-                        <h2 style={margin}>Projects</h2>
-                        <h2 style={margin}>Contact Me</h2>
+                        <Link to='/Home'><h2 style={margin}>Home</h2></Link>
+                        <HashLink smooth to='/Home#aboutMeDown'><h2 style={margin}>About Me</h2></HashLink>
+                        <HashLink smooth to='/Home#skillDown'><h2 style={margin}>Skills</h2></HashLink>
+                        <HashLink smooth to='/Home#projectDown'><h2 style={margin}>Projects</h2></HashLink>
+                        <HashLink smooth to='/Home#contactDown'><h2 style={margin}>Contact Me</h2></HashLink>
                 </section>
             </div>
         )
