@@ -49,7 +49,7 @@ app.post('/api/message/', (req) => {
         text: message
     }
 
-    transporter.sendMail(HelperOption, (error, info) => {
+    transporter.sendMail(HelperOptions, (error, info) => {
         if(error) {
             return console.log(error)
         }

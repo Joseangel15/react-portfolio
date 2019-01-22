@@ -3,15 +3,23 @@
     color: white;
     text-align: left;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .aboutMeSection{
     width: 100%;
     height: 750px;
     background-color: #323232;
+}
+
+.allLinks{
+    display: flex;
+    justify-Content: center;
+    height: 50px;
+    margin-Top: 30px;
+    margin-Left: 35px;
 }
 
 .arrow-down {
@@ -40,24 +48,42 @@
 
 .cardsTop{
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
     position: relative;
     bottom: 75px;
+    width: 1000px;
+    margin: auto;
+    z-index: 1;
 }
 
-.cardsBottom{
+/* .cardsBottom{
     display: flex;
     justify-content: center;
     position: relative;
     bottom: 75px;
     z-index: 1;
+} */
+
+.contactDown {
+    width: 800px;
+    height: 250px; 
+    background-Color: #454545; 
+    margin: auto; 
+    margin-Top: 20px; 
+    box-Shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+    padding-Top: 30px;
 }
 
-.contactSection{
-    width: 100%;
-    height: 935px;
-    background-color: #323232;
-    margin-top: 75px;
+.emailBtn{
+    font-size: 25px;
+    font-family: 'lobster', cursive;
+    border-radius: 5px;
+    border: none;
+    margin-top: 35px;
+    width: 150px;
+    height: 50px;
+
 }
 
 .gitHubWhite{
@@ -76,10 +102,19 @@
 }
 
 .introducePara{
-    width: 479px; 
+    width: 650px; 
     height: 572px; 
     font-Size: 20px; 
-    margin-Left: 115px
+    margin: auto;
+   
+}
+
+.lineUnderName{
+    width: 600px;
+    margin: auto;
+    height: 0;
+    border: none;
+    border-Top: 3px solid white; 
 }
 
 .linkBoxes{
@@ -106,7 +141,7 @@
 
 .myName{
     font-size: 85px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     color: white;
     margin-Bottom: 10px;
@@ -124,7 +159,7 @@
     -webkit-clip-path: polygon(0 85%, 0 100%, 100% 100%);
     clip-path: polygon(0 40%, 0 100%, 100% 100%);
     background-color: #454545;
-    height: 180px;
+    height: 220px;
 }
 
 .oppositePolygons2{
@@ -212,16 +247,237 @@
     /* z-index: -1; */
 }
 
+.slideDownBar{
+    width: 100%;
+    height: 75px;
+    background-Color: #454545;
+    position: relative;
+    bottom: 196px;
+    box-Shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.textAbout{
+    margin-Right: 20px;
+    font-Size: 55px;
+    color: white; 
+}
+
+.textMe{
+    font-Size: 55px;
+    font-Family: Lobster, cursive;
+    color: #51E516; 
+}
+
+.textSkills{
+    position: relative;
+    top: 30px;
+    font-Size: 55px;
+    color: white;
+}
+
+.threeCards {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-Top: 150px;
+    display: flex;
+    justify-Content: center; 
+}
+
+.textProjects {
+    position: relative;
+    top: 100px;
+    font-Size: 55px;
+    color: white;
+    font-Family: Raleway;
+}
+
 #backBtn{
     border: none;
     background-color: transparent;
     color: white;
     margin-top: 50px;
     font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contactSection{
+    width: 100%;
+    height: 680px;
+    background-color: #323232;
+    margin-top: 75px;
 }
 
 #linky {
     margin-left: 10px;
     font-weight: 300;
     color: #51E516
+}
+
+#reactLogo {
+    width: 205px;
+}
+
+#nodeLogo {
+    width: 145px;
+}
+
+#postmanLogo {
+    width: 130px;
+}
+
+#gitLogo {
+    width: 130px;
+}
+
+#jestLogo {
+    width: 130px;
+}
+
+#sassLogo {
+    width: 140px;
+}
+
+@media (max-width: 400px) {
+
+    #reactLogo {
+        width: 140px;
+        position: relative;
+        left: -20px;
+    }
+
+    #nodeLogo {
+        width: 105px;
+    }
+    
+    #postmanLogo {
+        width: 105px;
+    }
+    
+    #gitLogo {
+        width: 105px;
+    }
+    
+    #jestLogo {
+        width: 100px;
+    }
+    
+    #sassLogo {
+        width: 110px;
+    }
+
+    .allLinks{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .contactDown{
+        width: 100%;
+        height: 350px;
+        padding-top: 10px;
+    }
+
+    #contactSection{
+        height: 750px;
+    }
+
+    .emailBtn{
+        margin-top: 155px;
+    }
+
+    .myName {
+        font-size: 45px;
+    }
+
+    .myTitle {
+        font-size: 25px;
+    }
+
+    .lineUnderName {
+        width: 300px;
+    }
+
+    .linkBoxes{
+        margin-top: 20px;
+    }
+
+    .introBack {
+        height: 590px;
+    }
+
+    .textAbout{
+        font-size: 35px;
+    }
+
+    .textMe {
+        font-size: 35px;
+    }
+
+    .introducePara {
+        margin: 20px;
+    }
+
+    .aboutMePara {
+        font-size: 14px;
+        width: 330px;
+    }
+
+    .aboutMeSection {
+        height:  auto;
+        width: 360px;
+    }
+
+    .textSkills {
+        font-size: 35px;
+    }
+
+    .cardsTop {
+        width: 285px;
+        margin: auto;
+    }
+
+    .skillsSection{
+        height: 950px;
+    }
+
+    .skillCard{
+        width: 100px;
+        height: 150px;
+        margin: 0px 20px 10px 20px; 
+    }
+
+    .slideDownBar{
+        height: 25px;
+    }
+
+    .skillLogo {
+        width: 85px;
+        height: 96px;
+        margin-Top: 30px;
+    }
+
+    .skillName {
+        font-size: 16px;
+    }
+
+    .textProjects{
+        font-size: 35px;
+    }
+
+    .threeCards{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 340px;
+        height: auto;
+    }
+
+    .projectSection {
+        height: auto;
+    }
+
+    .lowerSectionBar {
+        height: 50px;
+    }
 }

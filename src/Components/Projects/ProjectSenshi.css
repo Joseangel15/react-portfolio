@@ -18,6 +18,14 @@
     background-color: #454545;
     color: white;
     padding: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.projectLink{
+    display: flex;
+    justify-Content: center; 
+    margin-Top: 30px; 
+    margin-Right: 570px
 }
 
 .projectPic{
@@ -30,5 +38,87 @@
 
 }
 
+.projectTitle{
+    font-Family: 'Lobster', cursive;
+    font-Size: 35px; 
+    color: #CE121B; 
+    font-Weight: 300;
+}
 
+.secondTitle{
+    color: #CE121B; 
+    font-Family: 'Lobster', cursive; 
+    font-Size: 30px; 
+    font-Weight: 300; 
+    text-Align: left; 
+    margin-Bottom: 20px; 
+    margin-Right: 330px;
+}
+
+.image-gallery-image {
+    width: 512px;
+    height: 48vh;
+    
+}
+
+.image-gallery-image img{
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-gallery-thumbnail-inner img{
+    height: 50px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 400px) {
+
+    .projectLink{
+        display: flex;
+        justify-Content: center; 
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .mainBlocks{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .mainSenshiBack{
+        width: 100%;
+        height: auto;
+        background-color: #323232;
+    }
+
+    .projectPic{
+        width: 350px;
+        height: 439px;
+        /* background-image: url('../../Assets/Senshi\ site\ Home.PNG'); */
+        background-size: cover;
+        margin: 40px;
+        background-position: center, center;
+    
+    }
+
+    .projectInfo{
+        width: 350px;
+        height: auto;
+        /* border: 1px solid white; */
+        margin: 10px;
+        background-color: #454545;
+        color: white;
+        padding: 20px;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .secondTitle{
+        margin-Right: 190px;
+    }
+
+}
 
