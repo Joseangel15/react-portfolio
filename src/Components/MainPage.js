@@ -178,7 +178,7 @@ class MainPage extends Component {
                             >Email</Clipboard>
                         </div>
                     </div>
-                    <HashLink smooth to='/Home#topAnchor'><button id='backBtn'>BACK TO TOP</button></HashLink>
+                    <HashLink smooth to='/#topAnchor'><button id='backBtn'>BACK TO TOP</button></HashLink>
                     <div className='oppositePolygons1'></div>
                     <div className='oppositePolygons2'></div>
                 </section>
