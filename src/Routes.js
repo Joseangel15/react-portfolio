@@ -9,7 +9,7 @@ import ProjectStacky from './Components/Projects/ProjectStacky';
 export default(
 
     <Switch>
-        <Route component={MainPage} exact path='/Home' />
+        <Route component={MainPage} exact path='/' />
         <Route component={ProjectSenshi} path='/Senshi' />
         <Route component={ProjectYauco} path='/Yauco' />
         <Route component={ProjectStacky} path='/Stacky' />

@@ -52,21 +52,21 @@ class Navigation extends Component {
                             </div>
                         </div>
                         <div className='nav-menu'>
-                            <Link to='/Home'><h2 style={navMenuStyle}>Home</h2></Link>
-                            <HashLink smooth to='/Home#aboutMeDown'><h2 style={navMenuStyle}>About Me</h2></HashLink>
-                            <HashLink smooth to='/Home#skillDown'><h2 style={navMenuStyle}>Skills</h2></HashLink>
-                            <HashLink smooth to='/Home#projectDown'><h2 style={navMenuStyle}>Projects</h2></HashLink>
-                            <HashLink smooth to='/Home#contactSection'><h2 style={navMenuStyle}>Contact Me</h2></HashLink>
+                            <Link to='/'><h2 style={navMenuStyle}>Home</h2></Link>
+                            <HashLink smooth to='/#aboutMeDown'><h2 style={navMenuStyle}>About Me</h2></HashLink>
+                            <HashLink smooth to='/#skillDown'><h2 style={navMenuStyle}>Skills</h2></HashLink>
+                            <HashLink smooth to='/#projectDown'><h2 style={navMenuStyle}>Projects</h2></HashLink>
+                            <HashLink smooth to='/#contactSection'><h2 style={navMenuStyle}>Contact Me</h2></HashLink>
                         </div>
                     </nav>
                 </header>
                 <div className={this.state.showNav ? 'show-nav mobile-nav' : ' ' + 'mobile-nav'}>
                     <div className="mobile-nav-content">
-                        <Link to='/Home'><h2 style={navMenuStyle}>Home</h2></Link>
-                        <HashLink smooth to='/Home#aboutMeDown'><h2 style={navMenuStyle}>About Me</h2></HashLink>
-                        <HashLink smooth to='/Home#skillDown'><h2 style={navMenuStyle}>Skills</h2></HashLink>
-                        <HashLink smooth to='/Home#projectDown'><h2 style={navMenuStyle}>Projects</h2></HashLink>
-                        <HashLink smooth to='/Home#contacSection'><h2 style={navMenuStyle}>Contact Me</h2></HashLink>
+                        <Link to='/'><h2 style={navMenuStyle}>Home</h2></Link>
+                        <HashLink smooth to='/#aboutMeDown'><h2 style={navMenuStyle}>About Me</h2></HashLink>
+                        <HashLink smooth to='/#skillDown'><h2 style={navMenuStyle}>Skills</h2></HashLink>
+                        <HashLink smooth to='/#projectDown'><h2 style={navMenuStyle}>Projects</h2></HashLink>
+                        <HashLink smooth to='/#contacSection'><h2 style={navMenuStyle}>Contact Me</h2></HashLink>
                     </div>
                 </div>
 
