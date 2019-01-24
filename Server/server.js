@@ -16,4 +16,4 @@ const {
 app.use(bodyParser.json())
 
 
-app.listen(SERVER_PORT, () => {console.log(`Server ${SERVER_PORT} connected`); });
+app.listen(SERVER_PORT, () => {console.log(`Server ${3880} connected`); });
