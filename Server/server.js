@@ -15,5 +15,10 @@ const {
 
 app.use(bodyParser.json())
 
+const path = require('path'); 
+
+app.get('*', (req, res)=>{
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+});
 
 app.listen(SERVER_PORT, () => {console.log(`Server ${3880} connected`); });
