@@ -22,5 +22,5 @@ app.get('*', (req, res)=>{
 });
 
 
-app.listen(SERVER_PORT, () => {console.log(`Server ${3880} connected`); });
+app.listen(SERVER_PORT, () => {console.log(`Server ${SERVER_PORT} connected`); });
 
