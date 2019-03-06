@@ -45,7 +45,8 @@ class MainPage extends Component {
 
         const projectCardInfo2 = {
             marginTop: '20px',
-            fontSize: '22px'
+            fontSize: '22px',
+            fontFamily: 'Raleway, sans-serif',
         }
 
         return (
