@@ -40,6 +40,10 @@ class ProjectYauco extends Component{
              originalTitle: 'Online Store'}
         ]
 
+        const justYauco = {
+
+        }
+
         return (
             <div className='mainSenshiBack'>
                 <Navigation />
@@ -54,7 +58,7 @@ class ProjectYauco extends Component{
                         <div className='projectInfo'>
                             <div style={{display: 'flex'}}>
                                 <h1 className= 'secondTitle' style={{color: 'rgb(255, 225, 0)', marginRight: '140px'}}>VisitYauco</h1>
-                                <a href='https://github.com/Joseangel15/senshi'><img src={gitHubIcon} alt="" className='gitHubWhite' style={{marginTop: '0px', marginBottom: '10px'}}/></a>
+                                <a href='https://github.com/Joseangel15/senshi'><img src={gitHubIcon} alt="" className='gitHubWhite' style={{marginTop: '0px', marginBottom: '10px', marginLeft: '140px'}}/></a>
                             </div>
                             <h2 style={{fontFamily: 'Lobster, cursive', fontWeight: '300', fontSize: '25px', textAlign: 'left', marginRight: '70px'}}>Personally Developed Web App</h2>
                             <p style={{textAlign: 'left', marginTop: '20px', fontSize: '18px', lineHeight: '1.2', fontWeight: '600'}}>React | JavaScript | CSS | HTML | Redux | Node | PostgreSQL | Massive | Nodemailer | Google Maps API | NewsAPI | Open Weather Map API</p>
