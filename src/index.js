@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop.js';
 import {HashRouter} from 'react-router-dom';
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 
 <HashRouter>
-    <App />
+    <ScrollToTop>
+        <App />
+    </ScrollToTop>
 </HashRouter>
 
 

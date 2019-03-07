@@ -66,7 +66,7 @@ class Navigation extends Component {
                         <HashLink smooth to='/#aboutMeDown'><h2 style={navMenuStyle}>About Me</h2></HashLink>
                         <HashLink smooth to='/#skillDown'><h2 style={navMenuStyle}>Skills</h2></HashLink>
                         <HashLink smooth to='/#projectDown'><h2 style={navMenuStyle}>Projects</h2></HashLink>
-                        <HashLink smooth to='/#contacSection'><h2 style={navMenuStyle}>Contact Me</h2></HashLink>
+                        <HashLink smooth to='/#contactSection'><h2 style={navMenuStyle}>Contact Me</h2></HashLink>
                     </div>
                 </div>
 
