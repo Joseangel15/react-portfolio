@@ -30,7 +30,7 @@
 
 .projectPic{
     width: 512px;
-    height: 449px;
+    height: 439px;
     /* background-image: url('../../Assets/Senshi\ site\ Home.PNG'); */
     background-size: cover;
     margin: 40px;
@@ -57,7 +57,7 @@
 
 .image-gallery-image {
     width: 512px;
-    height: 370px;
+    height: 340px;
     
 }
 
@@ -73,6 +73,14 @@
     height: 50px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
+
+#yauco-github-logo{
+    margin-Top: 0px;
+    margin-Bottom: 10px;
+    margin-Left: 140px;
+}
+
+
 
 @media (max-width: 400px) {
 
@@ -118,6 +126,16 @@
 
     .secondTitle{
         margin-Right: 190px;
+    }
+
+    /* .image-gallery-image {
+        width: 512px;
+        height: 340px;
+        
+    } */
+
+    #yauco-github-logo{
+        margin-left: 0px;
     }
 
 }
